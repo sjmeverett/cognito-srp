@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Session should be constructable from hkdf 1`] = `"81bea5ea37891c30ee91334d166776ad"`;
+
+exports[`Session should be constructable from hkdf 2`] = `"hu5kSl9dOiew86nl0jk/Q6AvwWOXeOLtEFNtUdtmiMk="`;
+
+exports[`Session should be constructable from session key and scrambling parameter 1`] = `"81bea5ea37891c30ee91334d166776ad"`;
+
+exports[`Session should be constructable from session key and scrambling parameter 2`] = `"hu5kSl9dOiew86nl0jk/Q6AvwWOXeOLtEFNtUdtmiMk="`;

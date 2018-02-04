@@ -1,0 +1,8 @@
+{
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest/preprocessor"
+  },
+  "rootDir": "src/test",
+  "testMatch": ["**/*.test.ts"],
+  "moduleFileExtensions": ["js", "ts", "pegjs"]
+}
