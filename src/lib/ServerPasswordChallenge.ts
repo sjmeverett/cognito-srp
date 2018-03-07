@@ -1,4 +1,4 @@
-import { calculateScramblingParameter, getBigInteger } from './util';
+import { calculateScramblingParameter, getBigInteger, padHex } from './util';
 import { BigInteger } from './BigInteger';
 import { multiplierParameter, g, N, Nbytes } from './constants';
 import { Session } from './Session';
@@ -30,6 +30,7 @@ export class ServerPasswordChallenge {
   }
 
   getSession(A: string) {
+    A = padHex(A);
     const Aint = new BigInteger(A, 16);
 
     if (Aint.compareTo(BigInteger.ZERO) <= 0 || Aint.compareTo(N) >= 0) {
